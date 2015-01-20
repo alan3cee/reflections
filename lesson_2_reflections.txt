@@ -20,10 +20,28 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Experimental situations/creating a new feature. Branches allows us the 
+	retain our main progres	while giving us a freedom to experiment with our 
+	codes on a separate progress "route". We can work on our main progress and
+	our experimental "route" simultaneously.
+
 How do the diagrams help you visualize the branch structure?
+
+	Diagrams allows me to visually identify how work progress diverges and 
+	converges at various commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	All the changes in both branches are combined into a single commit. The
+	diagram allows us to easily visualise how the two branches diverge and
+	then finally converges into one commit.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	
+	Automatic merging allows us to combine multiple branches quickly, but 
+	modified files that passes through Git's conflict detection can 
+	cause bugs. Always doing merges manually, on the other hand, resolves 
+	conflicts on the spot but would take a long time processing the combination.
+	Furthermore, manual merging might result in bugs due to human errors.
